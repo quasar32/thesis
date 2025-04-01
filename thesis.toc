@@ -1,0 +1,25 @@
+
+\renewcommand {\cftchapleader } {\cftdotfill {1.00}}
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{ABSTRACT}{1}{chapter*.3}%
+\contentsline {chapter}{ACKNOWLEDGMENTS}{2}{chapter*.4}%
+\contentsline {chapter}{NOMENCLATURE}{3}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{4}{chapter.1}%
+\vskip +10pt
+\contentsline {section}{\numberline {1.1}First-order Subheading (optional, remove/add as needed)}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Second-order Subheading (remove/add as needed)}{4}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.1}Third order subheading (remove/add as needed)}{4}{subsubsection.1.1.1.1}%
+\contentsline {section}{\numberline {1.2}Another First-order Subheading (remove/add as needed)}{5}{section.1.2}%
+\contentsline {chapter}{\numberline {2}METHODS}{6}{chapter.2}%
+\vskip +10pt
+\contentsline {section}{\numberline {2.1}Naive Simulation}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Spatial Grid Simulation}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Edge Coloring Simulation}{8}{section.2.3}%
+\contentsline {chapter}{\numberline {3}RESULTS}{9}{chapter.3}%
+\vskip +10pt
+\contentsline {section}{\numberline {3.1}Results Subheading 1 (remove/add as needed)}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Results Subheading 2 (remove/add as needed)}{9}{section.3.2}%
+\contentsline {chapter}{\numberline {4}CONCLUSION}{10}{chapter.4}%
+\vskip +10pt
+\contentsline {section}{\numberline {4.1}Conclusion Subheading}{10}{section.4.1}%
+\contentsline {chapter}{REFERENCES}{11}{section*.8}%

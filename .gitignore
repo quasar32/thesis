@@ -1,0 +1,7 @@
+*.aux
+*.bbl
+*.log
+*.pdf
+data/*.aux
+data/*.bbl
+data/*.log

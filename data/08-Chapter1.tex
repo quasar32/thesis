@@ -1,0 +1,74 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Template code for the Undergraduate Research Scholars thesis program starting, updated by Undergraduate Research Scholars program staff. Version 6.0. Last Updated: Fall 2024
+%  Modified by Tawfik Hussein from the template code for TAMU Theses and Dissertations starting Spring 2018, authored by Sean Zachary Roberson. Version 3.17.09.
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                           SECTION I: INTRODUCTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%______(0)______
+% Do not modify. This is the page heading
+
+% THIS LINE PUTS "1. INTRODUCTION" AT THE TOP OF THE PAGE, BOLD-FACED AND 14-PT (REQUIRED PAGE - DO NOT REMOVE)
+\chapter{INTRODUCTION}
+
+%________(1)______
+% Modifications Needed!
+% THIS IS THE SECTION WHERE YOU TYPE IN THE TEXT RELATED TO YOUR INTRODUCTION. NOTICE THE DOUBLE \indent COMMAND THAT PROPERLY INDENTS THE BEGINNING OF EACH PARAGRAPH
+
+\indent \indent 
+Many systems require a large number of particles to accurately simulate phenomena such as fluid behavior and intermolecular interactions. Such simulations can be simulated using position-based dynamics (PBD) and greatly benefit from parallelization, where the simulation is split evenly across multiple threads in order to increase throughput. The simplest method to achieve this is the Jacobi method \cite{bojun}, however this method is slow to converge and requires significantly more memory than than Gauss-Seidel. Gauss-Seidel is method that is not trivially parallelizable, but can be made parallelizable using edge coloring by treating the simulation as graph.
+%_______________________________________________
+% First order subheading (remove/add as needed)
+
+\vspace{-0.4em} % This line is added to preserve the double-spaced environment since the \section command add an extra space
+
+\section{First-order Subheading (optional, remove/add as needed)} %The command \section defines your first order subheading 
+
+\vspace{-0.4em} % This line is added to preserve the double-spaced environment since the \section command adds an extra space
+
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}} % This line redefines the footnote symbol from numbers to asterisks. If you want to revert back to numbers, simply delete this line of code.
+
+\indent \indent Directly above is a first order subheading. Note that first order subheadings are bold.  If you feel that the information under a first order subheading needs to be split into more sections, use additional subheadings. Take note that all first order subheadings must be included in the Table of Contents. Second and third order subheadings are NOT to be included in the Table of Contents.\footnote {Yes, this is how you do a footnote in LaTeX.}
+
+%_______________________________________________
+% Second order subheadings (remove/add as needed)
+
+\subsection{Second-order Subheading (remove/add as needed)} % The command \textit italicizes the text 
+
+
+\indent \indent This information still pertains to your first order subheading. If you need to break up content even further, you can use one last level of subheadings, called third order subheadings.
+
+%_______________________________________________
+% Third order subheadings (remove/add as needed)
+\subsubsection{Third order subheading (remove/add as needed)}
+
+\indent \indent Note that third order subheadings are regular. This information still pertains to your first order subheading, but is directly related to your second order subheading.
+
+\indent\indent This subsection tests the usage of references. The book \cite{REALCAR} is referred in this way. Actually, the option is available for you to change the default way of how references appears. The default and most commonly used option \cite{einstein} is displayed here \cite{Barn-JORVQ}. Use that style consistently throughout your thesis. The default style used here is IEEE.
+
+\indent\indent Unrelated citations are referred here just for the sake of testing the reference section only \cite{TAMU}. If you find that the reference \cite{GIGEM} has more items than you need \cite{WAGFJ}, question marks will show up in place of a reference handle, like these \cite{Over9000}.
+
+%_____________(X)____________
+% Optional section. Either keep or delete depending on your needs.
+
+% Another first-order subheading (remove/add as needed)
+\section{Another First-order Subheading (remove/add as needed)} %The command \section defines your first order                                                                           subheading 
+
+\vspace{-0.4em} % This line is added to preserve the double-spaced environment since the \section command adds an extra space
+
+\indent\indent [Type content here.]
+
+
+
+
+
+
+
+
+
+
