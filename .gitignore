@@ -3,6 +3,7 @@
 *.log
 *.pdf
 *.toc
+*.blg
 data/*.aux
 data/*.bbl
 data/*.log
